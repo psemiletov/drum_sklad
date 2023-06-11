@@ -1,0 +1,13 @@
+Bass Drum 1=DT_Kick.wav
+Rimshot=DT_Rimshot.wav
+Share=DT_Snare.wav
+Clap=DT_Clap.wav
+Tom 1=DT_Tom01.wav
+Tom 2=DT_Tom02.wav
+Hihat close=DT_Closedhat.wav
+Hihat open=DT_Openhat.wav
+Crash=DT_Crash.wav
+Cabasa=DT_Cabasa.wav
+Cowbell=DT_Cowbell.wav
+Ride=DT_Ride.wav
+Tamborine=DT_Tamborine.wav

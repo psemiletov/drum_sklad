@@ -1,0 +1,10 @@
+The file DR55KIT.ZIP is a complete sample set of the Boss DR-55 Dr. Rhythm. 
+All samples are Mono, 44.1Khz, Normalized .WAV files.
+
+DR55KICK.WAV - BASS DRUM
+DR55SNAR.WAV - SNARE
+DR55HAT.WAV  - HI HAT
+DR55RIM.WAV  - RIM SHOT
+
+Ed Vargo - May 1995
+dspeade@postoffice.ptd.net

@@ -1,0 +1,7 @@
+Kick=DR55KICK.WAV
+Snare=DR55SNAR.WAV
+Rimshot=DR55RIM.WAV
+Hihat=DR55HAT.WAV
+
+
+
