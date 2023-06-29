@@ -16,7 +16,7 @@ snare=share.wav
 hihat close=hhc.wav
 ```
 
-For the multi-layered samples, just separated their file names with comma, using the order from "quiet" sample to the "loudest" one (multi-layered samples are the set of samples those differs with the timbre, not the volume):
+For the multi-layered samples, just separate their file names with comma, using the order from "quiet" sample to the "loudest" one (multi-layered samples are the set of samples those differs with the timbre, not the volume):
 
 
 ```
