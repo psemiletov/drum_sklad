@@ -15,3 +15,12 @@ kick=kick.wav
 snare=share.wav
 hihat close=hhc.wav
 ```
+
+For the multi-layered samples, just separated their file names with comma, using the order from "quiet" sample to the "loudest" one (multi-layered samples are the set of samples those differs with the timbre, not the volume):
+
+
+```
+kick=kick01.wav,kick02.wav,kick03.wav,kick04.wav
+snare=share01.wav,share02.wav,share03.wav
+hihat opened=hihat01.wav,hihat02.wav
+```
