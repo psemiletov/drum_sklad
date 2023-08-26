@@ -4,7 +4,7 @@ Drum kits for Drumlabooh (LV2/VSTi) and Drumrox (LV2) drum machines. This repo s
 To such kits them, just put kits (as unpacked dirs) to (if Drumlabooh only installed) ```$HOME/drumlabooh-kits``` or ```/usr/share/drumlabooh-kits```, and
 to (for Drumrox and Drumlabooh) ```$HOME/drumrox-kits``` or ```/usr/share/drumrox-kits```.
 
-More kits (possibly not Public Domain) you can find here - [Drumlabooh kits at Telegram](https://t.me/drumlabooh_kits)
+More kits (possibly not Public Domain) you can find here - [Drumlabooh kits at Telegram](https://t.me/drum_sklad)
 
 
 ## Drumkit format
