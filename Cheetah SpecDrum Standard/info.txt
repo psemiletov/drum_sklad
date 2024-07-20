@@ -1,0 +1,6 @@
+Cheetah SpecDrum, the Standard kit
+
+Year: 1985
+Number of samples: 8
+
+The software sampler part of CHEETAH SPECDRUM.
