@@ -1,8 +1,8 @@
-Kick=kick.wav
-Snare=snare.wav
-Mid tom=tom_mid.wav
-Low tom=tom_low.wav
-Cowbell=cowbell.wav
-Hihat open=hihat_open.wav
-Hihat closed=hihat_closed.wav
-Claps=clap.wav
+KICK=kick.wav
+SNARE=snare.wav
+MID TOM=tom_mid.wav
+LOW TOM=tom_low.wav
+COWBELL=cowbell.wav
+HIHAT C=hihat_c.wav
+HIHAT O=hihat_o.wav
+CLAPS=clap.wav
