@@ -1,6 +1,6 @@
 Ludwig-Sixties
 
-This kit is based on Scott McLean's Scott McLean_Ludwig Oyster Blue Pearl Drum Kit_version 01.
+This 44.1 kHz kit is based on Scott McLean's Scott McLean_Ludwig Oyster Blue Pearl Drum Kit_version 01.
 
 See: https://forum.cockos.com/showthread.php?t=130875
 and 
@@ -75,6 +75,6 @@ Cymbals:
 
 Notes by Peter Semiletov for Dramlabooh kit version:
 
-1. All samples were converted from 44/24 bit/stereo to 44/float 32/mono.
+1. All samples were converted from 44kHz/24 bit integer/stereo to 44kHz/float 32/mono.
 2. Instruments order was slightly changed.
 3. This kit uses Round Robin and Random Switch options, so incompatible with Drumrox drum plugin (the predecessor of Drumlabooh) 

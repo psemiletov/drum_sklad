@@ -27,21 +27,20 @@ snare=share01.wav,share02.wav,share03.wav
 hihat opened=hihat01.wav,hihat02.wav
 ```
 
-Started from Drumlabooh 3.1.0, Drumlabooh supports kits with Round Robin and Random Order layer modes, which must be set at the kit defintiion level, and not compatible with outdated Drumrox (Drumlabooh's 
-predecessor).
+Started from Drumlabooh 3.1.0, Drumlabooh supports kits with Round Robin and Random Order layer modes, which must be set at the kit definition level.
 
 Round Robin means that layers are playing one by one at each note hit, then starting to play from the first layer if the layers list reaches the end.
 
 Random Order means that layers plays randomly at each note hit.
 
-To define Round Robin instrument, use the "large than" sign at the beginning of the samples list:
+To define Round Robin instrument, use the "large than" sign at the beginning of the sample name:
 
 ```
-kick=>kick01.wav,kick02.wav,kick03.wav
+>kick=kick01.wav,kick02.wav,kick03.wav
 ```
 
-To define Random Order instrument, use the "astetix" sign at the beginning of the samples list:
+To define Random Order instrument, use the "astetix" sign at the beginning of the sample name:
 
 ```
-kick=*kick01.wav,kick02.wav,kick03.wav
+*kick=kick01.wav,kick02.wav,kick03.wav
 ```
