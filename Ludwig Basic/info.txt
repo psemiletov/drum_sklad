@@ -2,4 +2,6 @@ Ludwig BASIC kit is based on free "Ludwig whole kit with Cymbals" by M-Rose Prod
 
 All original files were converted from 24-bit integer format to 32-bit float. All file names are original.
 
-Amphoux's files are 48 kHz, Scott McLean's - 44.1 kHz
+Gyom Amphoux's files are 48 kHz, Scott McLean's - 44.1 kHz
+
+Hihats are Round-Robined, all other instruments are layered by the velocity.
