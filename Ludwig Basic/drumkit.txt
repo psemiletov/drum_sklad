@@ -1,4 +1,4 @@
-Kick=KICK - Dry-08.wav,KICK - Dry-07.wav,KICK - Dry-06.wav,KICK - Dry-05.wav,KICK - Dry-04.wav,KICK - Dry-03.wav,KICK - Dry-02.wav,KICK - Dry-01.wav
+Bass drum=KICK - Dry-08.wav,KICK - Dry-07.wav,KICK - Dry-06.wav,KICK - Dry-05.wav,KICK - Dry-04.wav,KICK - Dry-03.wav,KICK - Dry-02.wav,KICK - Dry-01.wav
 Snare=SNARE - Dry-15.wav,SNARE - Dry-14.wav,SNARE - Dry-13.wav,SNARE - Dry-12.wav,SNARE - Dry-11.wav,SNARE - Dry-10.wav,SNARE - Dry-09.wav,SNARE - Dry-08.wav,SNARE - Dry-07.wav,SNARE - Dry-06.wav,SNARE - Dry-05.wav,SNARE - Dry-04.wav,SNARE - Dry-03.wav,SNARE - Dry-02.wav
 Snare=SNARE - Dry-15.wav,SNARE - Dry-14.wav,SNARE - Dry-13.wav,SNARE - Dry-12.wav,SNARE - Dry-11.wav,SNARE - Dry-10.wav,SNARE - Dry-09.wav,SNARE - Dry-08.wav,SNARE - Dry-07.wav,SNARE - Dry-06.wav,SNARE - Dry-05.wav,SNARE - Dry-04.wav,SNARE - Dry-03.wav,SNARE - Dry-02.wav
 Floor Tom=FLOOR TOM - Dry-09.wav,FLOOR TOM - Dry-08.wav,FLOOR TOM - Dry-07.wav,FLOOR TOM - Dry-03.wav,FLOOR TOM - Dry-02.wav,FLOOR TOM - Dry-01.wav,FLOOR TOM - Dry-06.wav,FLOOR TOM - Dry-05.wav,FLOOR TOM - Dry-04.wav

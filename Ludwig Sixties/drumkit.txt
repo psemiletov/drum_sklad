@@ -1,4 +1,4 @@
->Kick 68=K68c01.wav,K68c02.wav,K68c03.wav,K68c04.wav,K68c05.wav,K68c06.wav,K68c07.wav,K68c08.wav,K68c09.wav
+>Bass drum 68=K68c01.wav,K68c02.wav,K68c03.wav,K68c04.wav,K68c05.wav,K68c06.wav,K68c07.wav,K68c08.wav,K68c09.wav
 >Snare 67=Sn67a01.wav,Sn67b01.wav
 >Snare 65=Sn65a01.wav,Sn65c01.wav,Sn65d01.wav
 >Floor Tom=T369c01.wav,T369c02.wav,T369c03.wav,T369c04.wav,T369c05.wav,T369c06.wav,T369c07.wav,T369c08.wav,T369c09.wav
