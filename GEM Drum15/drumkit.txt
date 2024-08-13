@@ -1,7 +1,7 @@
 Bass drum=bass.wav
-Snare One=GEM15_SD1.wav
-Snare Two=GEM15_SD2.wav
-Hihat Short 1=GEM15_HH1.wav
-Hihat Short 2=GEM15_HH2.wav
-Hihat Long 1=GEM15_HH3.wav
-Hihat Long 2=GEM15_HH4.wav
+Snare One=snare01.wav
+Snare Two=snare02.wav
+Hihat Short 1=hihat_short_01.wav
+Hihat Short 2=hihat_short_02.wav
+Hihat Long 1=hihat_long_01.wav
+Hihat Long 2=hihat_long_02.wav

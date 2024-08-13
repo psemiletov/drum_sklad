@@ -44,3 +44,13 @@ To define Random Order instrument, use the "astetix" sign at the beginning of th
 ```
 *kick=kick01.wav,kick02.wav,kick03.wav
 ```
+
+There is another "multi-sampling layers mode, example:
+
+
+```
+^kick=kick01.wav,kick02.wav,kick03.wav
+```
+
+It means that samples will be handled as the normal multi-sample (from quiet to loud), but MIDI-velocity value will not be applied to the signal level. MIDI-velocity will be used just to determine which layer we use.
+
