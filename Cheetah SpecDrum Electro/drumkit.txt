@@ -1,8 +1,8 @@
-E KICK=kick.wav
-E SNARE=snare.wav
-E HI TOM=tom_mid.wav
-E LO TOM=tom_low.wav
-E PEOW=peow.wav
-E HIHAT=hihat.wav
-E CYMB=cymbal.wav
-E CLAP=clap.wav
+[37]E KICK=kick.wav
+[38]E SNARE=snare.wav
+[50]E HI TOM=tom_mid.wav
+[45]E LO TOM=tom_low.wav
+[40]E PEOW=peow.wav
+[46]E HIHAT=hihat.wav
+[49]E CYMB=cymbal.wav
+[39]E CLAP=clap.wav

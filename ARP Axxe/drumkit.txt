@@ -1,5 +1,5 @@
-Bass=bass.wav
-Snare=snare.wav
-Star drum=star.wav
-Hihat=hihat.wav
-Ride=ride.wav
+[36]Bass=bass.wav
+[38]Snare=snare.wav
+[49]Star drum=star.wav
+[46]Hihat=hihat.wav
+[51]Ride=ride.wav
