@@ -2,7 +2,7 @@
 [38]BUASH=buash.wav
 [63]HI CONGA=hiconga.wav
 [64]LO CONGA=loconga.wav
-[46]CLAVE=clave.wav
+[75]CLAVE=clave.wav
 [36]COCONUT=coconut.wav
 [73]GUIRO=guiro.wav
 [71]WHISTLE=whistle.wav

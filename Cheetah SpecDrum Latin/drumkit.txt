@@ -1,8 +1,8 @@
-KICK D=kick.wav
-SNARE Hard=snare_high.wav
-HI TIMBale=timb_hi.wav
-LO TIMBale=timb_low.wav
-HANDCOWBell=handcow.wav
-STICK=stick.wav
-CABASA=cabasa.wav
-TAMBORIine=tamborin.wav
+[36]KICK D=kick.wav
+[38]SNARE Hard=snare_high.wav
+[65]HI TIMBale=timb_hi.wav
+[66]LO TIMBale=timb_low.wav
+[56]HANDCOWBell=handcow.wav
+[37]STICK=stick.wav
+[69]CABASA=cabasa.wav
+[54]TAMBORIine=tamborin.wav
