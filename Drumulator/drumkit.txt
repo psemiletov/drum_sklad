@@ -1,0 +1,12 @@
+[36]Bass Drum=bass.wav
+[37]Rimshot=rim.wav
+[38]Snare Drum=snare.wav
+[39]Clap=clap.wav
+[42]Closed Hi hat=hihat-closed.wav
+[46]Open Hihat=hihat-open.wav
+[51]Ride Cymbal=cymbal.wav
+[45]Low Tom=lo-tom.wav
+[47]Mid Tom=mid-tom.wav
+[48]HiTom=hi-tom.wav
+[56]Cowbell=cowbell.wav
+[75]Clave=clave.wav
