@@ -1,7 +1,7 @@
 E-mu Drumulator is a sample-based drum machine introduced in 1983 by E-mu Systems. It has 12 8-bit samples. Digidrums produced, at 1984, additional special EPROMs with more samples.
 
 Who used Drumulator? Cocteau Twins in albums Head over Heels, Sunburst and Snowblind, and more. Depeche Mode	at songs "Everything Counts", "Love, in Itself", "Never Let Me Down Again". Ultravox. Front 242 - No comment (1984),
-Jarre - Rendez-vouz (1986, "second rendez-vouz"), 
+Jarre - Rendez-vouz (1986, "second rendez-vouz").
 
 
 
