@@ -32,7 +32,6 @@ Date stamp: 06/15/1965.
 
 Ludwig 5"x14" snare drum (1967).
 
-
 Ludwig 14"x22" kick drum (1968).
 Finish: Oyster Blue Pearl.
 Shell: Maple/Poplar/Mahogany/Finish.
@@ -80,4 +79,4 @@ Notes by Peter Semiletov for Dramlabooh kit version:
 
 1. All samples were converted from 44kHz/24 bit integer/stereo to 44kHz/float 32/mono.
 2. Instruments order was slightly changed.
-3. This kit uses Round Robin and Random Switch options, so incompatible with Drumrox drum plugin (the predecessor of Drumlabooh) 
+3. This kit uses Round Robin and Random Switch options
