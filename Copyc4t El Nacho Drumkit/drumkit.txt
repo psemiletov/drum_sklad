@@ -1,0 +1,8 @@
+[36]Kick=396102__copyc4t__el-nacho-kick.flac
+[38]Snare=396099__copyc4t__el-nacho-snare.flac
+[45]Low Tom=396101__copyc4t__el-nacho-low-tom.flac
+[47]Mid Tom=396100__copyc4t__el-nacho-mid-tom.flac
+[50]High Tom=396095__copyc4t__el-nacho-hi-tom.flac
+[46]Hihats Open=396097__copyc4t__el-nacho-hi-hat-open.flac
+[42]Hihats Close=396096__copyc4t__el-nacho-hi-hat.flac
+[55]Cymbal=396098__copyc4t__el-nacho-cymbal.flac
