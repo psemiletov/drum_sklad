@@ -1,0 +1,6 @@
+Bass=bd.wav
+Snare01=sd01.wav
+Snare02=sd02.wav
+Hihat Open=hh02.wav
+Hihat Close=hh01.wav
+Clav=clav.wav
