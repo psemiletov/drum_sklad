@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root type="alt">
+    
+<sample name="Kick" note="36">
+ThumpKick.wav,MuffKick.wav,TiteKick.wav,808Kick.wav,AmbientKick.wav,ElectroKick.wav,WolfKick.wav,2001Kick.wav,CosmoKick.wav,BangKick.wav,PZKick.wav,WildKick.wav,SnickKick.wav,WooBoxKick.wav,RapBoomKick.wav,BBMKick.wav,DaPowerKick.wav,Kick1.wav,Kick1.wav,Kick3.wav,Kick4.wav,Kick5.wav,Kick6.wav,Kick7.wav,Kick8.wav,Kick9.wav,Kick10.wav,Kick11.wav,Kick12.wav,Kick13.wav,Kick14.wav,Kick15.wav,Kick16.wav,Kick17.wav,Kick18.wav,Kick19.wav,Kick20.wav,Kick22.wav,Kick23.wav,Kick24.wav,Kick25.wav,Kick26.wav,LoopKick.wav,LoopKick2.wav
+</sample>
+
+<sample name="Side Stick" note="37">
+SideStick.wav,SideStick2.wav,StickClick.wav,Rimshot.wav
+</sample>
+
+
+<sample name="Snare 1" note="38">
+808Snare.wav,909Snare.wav,BandSnare.wav,BangSnare.wav,BigRockSnare.wav,ChillSnare.wav,ClapSnare.wav,ClassicSnare.wav,CleanSnare.wav,CosmoSnare.wav,GatedSnare.wav,HouseSnare1.wav,HouseSnare2.wav,HouseSnare3.wav,JamSnare.wav,LiveSnare.wav,LoopSnare.wav,LoopSnare2.wav,LoopSnare3.wav,LoopSnare4.wav,LudwigSnare.wav,MuttDSnare.wav,RealSnare.wav,SlangSnare.wav,Snare1.wav,Snare2.wav,Snare3.wav,Snare4.wav,Snare5.wav,Snare6.wav,Snare7.wav,Snare8.wav,Snare9.wav,Snare10.wav,Snare11.wav,Snare12.wav,Snare13.wav,Snare14.wav,Snare15.wav,Snare16.wav,Snare17.wav,Snare18.wav,Snare19.wav,Snare20.wav,Snare21.wav,Snare22.wav,Snare23.wav,Snare24.wav,Snare25.wav,SnareRoll.wav,SnareRoll2.wav,SpakSnare.wav,WolfeSnare.wav,ZeeSnare.wav
+</sample>
+
+<sample name="Clap" note="39">
+808Clap.wav,Clap1.wav,Clap2.wav,Clap3.wav,Clap4.wav,Clap5.wav,RapClap.wav
+</sample>
+
+
+<sample name="Snare 2" note="40">
+808Snare.wav,909Snare.wav,BandSnare.wav,BangSnare.wav,BigRockSnare.wav,ChillSnare.wav,ClapSnare.wav,ClassicSnare.wav,CleanSnare.wav,CosmoSnare.wav,GatedSnare.wav,HouseSnare1.wav,HouseSnare2.wav,HouseSnare3.wav,JamSnare.wav,LiveSnare.wav,LoopSnare.wav,LoopSnare2.wav,LoopSnare3.wav,LoopSnare4.wav,LudwigSnare.wav,MuttDSnare.wav,RealSnare.wav,SlangSnare.wav,Snare1.wav,Snare2.wav,Snare3.wav,Snare4.wav,Snare5.wav,Snare6.wav,Snare7.wav,Snare8.wav,Snare9.wav,Snare10.wav,Snare11.wav,Snare12.wav,Snare13.wav,Snare14.wav,Snare15.wav,Snare16.wav,Snare17.wav,Snare18.wav,Snare19.wav,Snare20.wav,Snare21.wav,Snare22.wav,Snare23.wav,Snare24.wav,Snare25.wav,SnareRoll.wav,SnareRoll2.wav,SpakSnare.wav,WolfeSnare.wav,ZeeSnare.wav
+</sample>
+
+
+
+<sample name="Hihat Close" note="42">
+808HatClose.wav,909HatCl.wav,ClosedHat.wav,ClosedHat2.wav,ClosedHat3.wav,ClosedHat4.wav,ClosedHat6.wav,ClosedHat8.wav,CompressedHat.wav,CR78Hat.wav,HatXClosed.wav,PedalHat.wav,PZHat.wav,RBHat.wav,SmackHat.wav,SnickHat.wav,StudioHat.wav,TechnoHat.wav,TightHat.wav,TranceHat.wav
+</sample>
+
+
+
+<sample name="Tom 1" note="45">
+808Tom.wav,909Tom.wav,LazerTom.wav,RockTom.wav,StudioTom.wav,Tom1.wav,Tom2.wav
+</sample>
+
+
+<sample name="Hihat Open" note="46">
+808HatOpen.wav,909HatOpen.wav,CompressedOpenHat.wav,CR78OpenHat.wav,ElectricHat.wav,HatX.wav,HatXOpen.wav,LoFiHat.wav,OpenHat1.wav,OpenHat2.wav,OpenHat3.wav,OpenHat3-1.wav,OpenHat4.wav,OpenHat5.wav,OpenHat6.wav,OpenHat7.wav,OpenHat8.wav,OpenHat9.wav,OpenHat10.wav,StudioOpenHat.wav,StudioOpenHat2.wav
+</sample>
+
+
+<sample name="Tom 2"  note="47">
+808Tom.wav,909Tom.wav,LazerTom.wav,RockTom.wav,StudioTom.wav,Tom1.wav,Tom2.wav
+</sample>
+
+<sample name="Tom 3"  note="48">
+808Tom.wav,909Tom.wav,LazerTom.wav,RockTom.wav,StudioTom.wav,Tom1.wav,Tom2.wav
+</sample>
+
+
+<sample name="Crash" note="49">
+ChinaCrash.wav,Crash.wav,DanceCrash1.wav,DanceCrash2.wav,DanceCrash3.wav,DanceCrash4.wav,DanceCrash5.wav,DanceCrash6.wav,DanceCrash7.wav
+</sample>
+
+
+<sample name="Ride" note="51">
+808Ride1.wav,808Ride2.wav,CZRide.wav,DanceRide1.wav,DanceRide2.wav,DanceRide3.wav,DanceRide4.wav,DanceRide5.wav,Ride.wav,RideBell.wav
+</sample>
+
+
+<sample name="Cymbals" note="52">
+TransCymbal.wav
+</sample>
+
+
+<sample name="Tambourine" note="54">
+BadTambo.wav,Tamb1.wav,Tamb2.wav,TamBassDrumown.wav,TambUp.wav
+</sample>
+
+
+<sample name="Cowbell" note="56">
+808Cowbell.wav,AfroCowbell.wav,SynCowbell.wav,SynCowbell2.wav,SynCowbell3.wav,SynCowbell4.wav
+</sample>
+
+
+<sample name="Vibraslap" note="58">
+Vibraslap.wav
+</sample>
+
+
+<sample name="Bongo" note="60">
+Bongo.wav
+</sample>
+
+
+<sample name="Conga Mute" note="62">
+CongaMute.wav
+</sample>
+
+
+<sample name="Conga High" note="63">
+CongaHigh.wav
+</sample>
+
+
+<sample name="Conga Low" note="64">
+CongaLow.wa,CongaSlap.wav    
+</sample>
+
+
+<sample name="Timbale High" note="65">
+TimbaleHigh.wav
+</sample>
+
+
+<sample name="Timbale Low" note="66">
+TimbaleLow.wav
+</sample>
+
+
+<sample name="Timbale Rim">
+TimbaleRim.wav
+</sample>
+
+
+<sample name="Agogo" note="67">
+Agogo.wav
+</sample>
+
+
+<sample name="Cabasa" note="69">
+Cabasa.wav
+</sample>
+
+
+<sample name="Maracas.wav" note="70">
+Maracas.wav
+</sample>
+
+
+<sample name="Whistle B" note="71">
+Whistle2.wav
+</sample>
+
+
+<sample name="Whistle A" note="72">
+Whistle1.wav
+</sample>
+
+
+<sample name="Guiro Short" note="73">
+GuiroShort.wav
+</sample>
+
+<sample name="Guiro Long" note="74">
+GuiroLong.wav
+</sample>
+
+
+<sample name="Clave" note="75">
+808Clave.wav,Clave.wav
+</sample>
+
+
+<sample name="Woodblock 1" note="76">
+Woodblock.wav
+</sample>
+
+
+<sample name="Woodblock 2" note="77">
+Woodblock2.wav
+</sample>
+
+<sample name="Cuica" note="78">
+Cuica.wav
+</sample>
+
+
+<sample name="Triangle" note="80">
+Triangle1.wav,Triangle2.wav,Triangle3.wav,Triangle4.wav
+</sample>
+
+
+<sample name="Shaker" note="82">
+Shaker.wav
+</sample>
+
+
+<sample name="Tick">
+Tick.wav,TickPerc.wav
+</sample>
+
+
+<sample name="Misc">
+Fingers.wav,GatedSlideDown.wav,Noize+Metal.wav,PercNoize.wav,Shekere.wav,ShekereUp.wav,BrushSlap.wav
+</sample>
+
+
+
+<sample name="Scratch">
+Scratch1.wav,Scratch2.wav,Scratch3.wav,Scratch4.wav,Scratch5.wav,Scratchx.wav
+</sample>
+
+
+
+</root>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root type="alt">
+    
+<sample name="Bass drum" note="36">
+Bassdrum01.wav,Bassdrum02.wav,Bassdrum03.wav,Bassdrum04.wav,Bassdrum05.wav,Bassdrum06.wav,Bassdrum07.wav,Bassdrum08.wav,Bassdrum09.wav,Bassdrum10.wav,Bassdrum11.wav,Bassdrum12.wav,Bassdrum13.wav,Bassdrum14.wav,Bassdrum15.wav,Bassdrum16.wav,Bassdrum17.wav,Bdcrunch.wav,Bdcrunch2.wav,Bdhip.wav,Bdhip2.wav,Bdhip2hard.wav,Bdrumble.wav
+</sample>
+
+<sample name="Rimshot" note="37">
+Rimshot01.wav,Rimshot02.wav,Rimshot03.wav
+</sample>
+
+
+<sample name="Snare 1" note="38">
+Snare01.wav,Snare1.wav,Snare02.wav,Snare2.wav.Snare2hard.wav,Snare2high.wav,Snare03.wav,Snare3.wav,Snare04.wav,Snare4.wav,Snare4hard.wav,Snare05.wav,Snare06.wav,Snare07.wav,Snare08.wav,Snare09.wav,Snare10.wav
+</sample>
+
+<sample name="Clap" note="39">
+Clap01.wav,Clap02.wav,Clap03.wav,Clap04.wav,Clap05.wav,Clap06.wav,Clap07.wav
+</sample>
+
+
+<sample name="Hihat Close" note="42">
+Closedhh1.wav
+</sample>
+
+
+<sample name="Tom 1" note="45">
+Tom01.wav,Tom02.wav,Tom03.wav,Tom04.wav,Tom05.wav,Tom06.wav,Tom07.wav,Tom08.wav
+</sample>
+
+
+<sample name="Hihat Open" note="46">
+Hhv4open.wav,8Brighthh.wav,Hat01.wav,Hat02.wav,Hat03.wav,Hat04.wav,Hat05.wav,Hat06.wav,Hat07.wav,Hhv1.wav,Hhv2.wav,Hhv3.wav
+</sample>
+
+
+<sample name="Tom 2" note="47">
+Tom01.wav,Tom02.wav,Tom03.wav,Tom04.wav,Tom05.wav,Tom06.wav,Tom07.wav,Tom08.wav
+</sample>
+
+<sample name="Tom 3" note="48">
+Tom01.wav,Tom02.wav,Tom03.wav,Tom04.wav,Tom05.wav,Tom06.wav,Tom07.wav,Tom08.wav
+</sample>
+
+
+<sample name="Crash" note="49">
+Crash1.wav,Crash2.wav,Crash3.wav
+</sample>
+
+
+<sample name="Thud">
+Thud.wav
+</sample>
+
+
+<sample name="Resclap">
+Resclap1.wav,Resclap2.wav,Resclap3.wav
+</sample>
+
+
+<sample name="Groove">
+Groove01.wav,Groove02.wav,Groove03.wav,Groove04.wav
+</sample>
+
+
+
+<sample name="Perc">
+Perc01.wav,Perc02.wav,Perc03.wav,Perc04.wav,Perc05.wav,Perc06.wav,Perc07.wav,Perc08.wav,Perc09.wav
+</sample>
+
+
+
+</root>

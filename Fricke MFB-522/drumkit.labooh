@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root type="alt">
+  
+<sample name="Bass" note="36">
+KICKS/kick.txt
+</sample>
+   
+<sample name="Snare" note="38">
+SNARES/snare.txt
+</sample>
+
+<sample name="Tom 1" note="41">
+TOMS/tom.txt
+</sample>
+
+<sample name="Tom 2" note="47">
+TOMS/tom.txt
+</sample>
+
+<sample name="Tom 3" note="50">
+TOMS/tom.txt
+</sample>
+
+<sample name="Closed Hihat" note="42">
+CLOSED HAT/closed-hihats.txt
+</sample>
+
+<sample name="Open Hihat" note="46">
+OPEN HATS/open-hihats.txt
+</sample>
+
+<sample name="Clap" note="39">
+CLAPS/claps.txt
+</sample>
+
+<sample name="Conga" note="62">
+CYMBALS/cymbals.txt
+</sample>
+
+<sample name="Cowbell" note="56">
+COWBELLS/cowbell.txt
+</sample>
+
+<sample name="Clave" note="75">
+CLAVES/claves.txt
+</sample>
+
+<sample name="Conga">
+CONGAS/congas.txt
+</sample>
+
+
+</root>
