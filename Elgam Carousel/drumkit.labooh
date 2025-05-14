@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root type="alt">
+    
+<sample name="Bass " note="36">
+BD_1.wav,BD_2.wav,BD_3.wav
+</sample>
+
+<sample name="Rim" note="37">
+Rim.wav
+</sample>
+
+
+<sample name="Snare" note="38">
+SN_1.wav,SN_2.wav,SN_3.wav,SN_4.wav,SN_5.wav,SN_6.wav
+</sample>
+
+<sample name="Perc" note="39">
+Perc1.wav,Perc2.wav,Perc3.wav,Perc4.wav,Perc5.wav,Perc6.wav,Perc7.wav,Perc8.wav,Perc9.wav,Perc10.wav,Perc11.wav
+</sample>
+
+
+
+<sample name="Hihat" note="42">
+HH_1.wav,HH_2.wav,HH_3.wav,HH_4.wav
+</sample>
+
+
+
+<sample name="Tom" note="45">
+Tom1.wav,Tom2.wav,Tom3.wav,Tom4.wav
+</sample>
+
+
+
+</root>
