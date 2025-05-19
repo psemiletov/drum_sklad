@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root type="alt">
+    
+<sample name="Kick" note="36">
+kick.txt
+</sample>
+
+<sample name="Snare 1" note="38">
+snare.txt
+</sample>
+
+<sample name="Snare 2" note="40">
+snare.txt
+</sample>
+
+<sample name="Hihat Close" note="42">
+choosy-house-Hihat05.wav,choosy-house-Hihat10.wav
+</sample>
+
+<sample name="Tom 1" note="45">
+tom.txt
+</sample>
+
+<sample name="Hihat Open" note="46">
+open-hihat.txt
+</sample>
+
+
+</root>
