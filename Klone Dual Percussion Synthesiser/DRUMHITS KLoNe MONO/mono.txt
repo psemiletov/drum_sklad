@@ -1,0 +1,67 @@
+A182norm.wav
+Aregion_145.wav
+Aregion_182.wav
+B396norm.wav
+Bass149 Bis.wav
+Bass149.wav
+Bass A145short.wav
+Bregion_206.wav
+Bregion_296.wav
+Bregion_327.wav
+Bregion_374.wav
+Bregion_376.wav
+Bregion_396.wav
+Bregion_398.wav
+Bregion_400.wav
+C_Block1.wav
+C_Clave1.wav
+C_Clave2.wav
+C_Claveptch3.wav
+C_Claveptch.wav
+C_Click1norm.wav
+C_Click1.wav
+C_Click2.wav
+C_Click3norm.wav
+C_Click3.wav
+C_Hdcliknorm.wav
+C_Hdclik.wav
+C_Hiclve1.wav
+C_Kick1norm.wav
+C_Kick1.wav
+C_Kick2norm.wav
+C_Kick2.wav
+C_Kick3norm.wav
+C_Kick3.wav
+C_Kickdeep.wav
+C_Kickdry1.wav
+C_Kicklo1.wav
+C_Kicklo3 Quadnorm.wav
+C_Kicklo3.wav
+C_Kicklo4norm.wav
+C_Kicklo4 Quadnorm.wav
+C_Kicklo4.wav
+C_Kickshrt1.wav
+C_Snap1.wav
+Dfrq013norm.wav
+Dfrq013.wav
+Dfx008norm.wav
+Dfx008.wav
+Dtom037.wav
+Klone400_Tightkick2.wav
+Klone400_Tightkick.wav
+mono.txt
+Noizdr1norm.wav
+Noizdr1.wav
+Noizxmod060norm.wav
+Noizxmod060.wav
+Perc101.wav
+Perc105.wav
+Perc107.wav
+Perc386.wav
+Perc388.wav
+Perc390.wav
+Reznoiz006.wav
+Reznoiz017.wav
+Supertightkick B206norm.wav
+Xmod008norm.wav
+Xmod008.wav

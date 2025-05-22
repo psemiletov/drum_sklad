@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root type="alt">
+    
+<sample name="BASS" note="36">
+KLONE BASS NW8/bass.txt
+</sample>
+
+<sample name="MONO">
+DRUMHITS KLoNe MONO/mono.txt
+</sample>
+
+<sample name="KICK">
+KLONE KICK NW8/kick.txt
+</sample>
+
+<sample name="SNARE" note="38">
+KLONE SNARE NW8/snare.txt
+</sample>
+
+<sample name="HHAT">
+KLONE HHAT NW8/hhat.txt
+</sample>
+
+<sample name="PERC" note="39">
+KLONE PERC NW8/perc.txt
+</sample>
+
+<sample name="FILT">
+KLONE FILT NW8/filt.txt
+</sample>
+
+<sample name="PITCH">
+KLONE PITCH NW8/pitch.txt
+</sample>
+
+<sample name="FREQ">
+KLONE FREQ NW8/freq.txt
+</sample>
+
+<sample name="NOIZ">
+KLONE NOIZ NW8/noiz.txt
+</sample>
+
+<sample name="FX">
+KLONE FX NW8/fx.txt
+</sample>
+
+<sample name="2SFX">
+KLONE2SFX NW8/fx.txt
+</sample>
+
+</root>
