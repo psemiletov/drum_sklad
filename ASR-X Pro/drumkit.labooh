@@ -9,7 +9,6 @@ ThumpKick.wav,MuffKick.wav,TiteKick.wav,808Kick.wav,AmbientKick.wav,ElectroKick.
 SideStick.wav,SideStick2.wav,StickClick.wav,Rimshot.wav
 </sample>
 
-
 <sample name="Snare 1" note="38">
 808Snare.wav,909Snare.wav,BandSnare.wav,BangSnare.wav,BigRockSnare.wav,ChillSnare.wav,ClapSnare.wav,ClassicSnare.wav,CleanSnare.wav,CosmoSnare.wav,GatedSnare.wav,HouseSnare1.wav,HouseSnare2.wav,HouseSnare3.wav,JamSnare.wav,LiveSnare.wav,LoopSnare.wav,LoopSnare2.wav,LoopSnare3.wav,LoopSnare4.wav,LudwigSnare.wav,MuttDSnare.wav,RealSnare.wav,SlangSnare.wav,Snare1.wav,Snare2.wav,Snare3.wav,Snare4.wav,Snare5.wav,Snare6.wav,Snare7.wav,Snare8.wav,Snare9.wav,Snare10.wav,Snare11.wav,Snare12.wav,Snare13.wav,Snare14.wav,Snare15.wav,Snare16.wav,Snare17.wav,Snare18.wav,Snare19.wav,Snare20.wav,Snare21.wav,Snare22.wav,Snare23.wav,Snare24.wav,Snare25.wav,SnareRoll.wav,SnareRoll2.wav,SpakSnare.wav,WolfeSnare.wav,ZeeSnare.wav
 </sample>
@@ -18,23 +17,17 @@ SideStick.wav,SideStick2.wav,StickClick.wav,Rimshot.wav
 808Clap.wav,Clap1.wav,Clap2.wav,Clap3.wav,Clap4.wav,Clap5.wav,RapClap.wav
 </sample>
 
-
 <sample name="Snare 2" note="40">
 808Snare.wav,909Snare.wav,BandSnare.wav,BangSnare.wav,BigRockSnare.wav,ChillSnare.wav,ClapSnare.wav,ClassicSnare.wav,CleanSnare.wav,CosmoSnare.wav,GatedSnare.wav,HouseSnare1.wav,HouseSnare2.wav,HouseSnare3.wav,JamSnare.wav,LiveSnare.wav,LoopSnare.wav,LoopSnare2.wav,LoopSnare3.wav,LoopSnare4.wav,LudwigSnare.wav,MuttDSnare.wav,RealSnare.wav,SlangSnare.wav,Snare1.wav,Snare2.wav,Snare3.wav,Snare4.wav,Snare5.wav,Snare6.wav,Snare7.wav,Snare8.wav,Snare9.wav,Snare10.wav,Snare11.wav,Snare12.wav,Snare13.wav,Snare14.wav,Snare15.wav,Snare16.wav,Snare17.wav,Snare18.wav,Snare19.wav,Snare20.wav,Snare21.wav,Snare22.wav,Snare23.wav,Snare24.wav,Snare25.wav,SnareRoll.wav,SnareRoll2.wav,SpakSnare.wav,WolfeSnare.wav,ZeeSnare.wav
 </sample>
-
-
 
 <sample name="Hihat Close" note="42">
 808HatClose.wav,909HatCl.wav,ClosedHat.wav,ClosedHat2.wav,ClosedHat3.wav,ClosedHat4.wav,ClosedHat6.wav,ClosedHat8.wav,CompressedHat.wav,CR78Hat.wav,HatXClosed.wav,PedalHat.wav,PZHat.wav,RBHat.wav,SmackHat.wav,SnickHat.wav,StudioHat.wav,TechnoHat.wav,TightHat.wav,TranceHat.wav
 </sample>
 
-
-
 <sample name="Tom 1" note="45">
 808Tom.wav,909Tom.wav,LazerTom.wav,RockTom.wav,StudioTom.wav,Tom1.wav,Tom2.wav
 </sample>
-
 
 <sample name="Hihat Open" note="46">
 808HatOpen.wav,909HatOpen.wav,CompressedOpenHat.wav,CR78OpenHat.wav,ElectricHat.wav,HatX.wav,HatXOpen.wav,LoFiHat.wav,OpenHat1.wav,OpenHat2.wav,OpenHat3.wav,OpenHat3-1.wav,OpenHat4.wav,OpenHat5.wav,OpenHat6.wav,OpenHat7.wav,OpenHat8.wav,OpenHat9.wav,OpenHat10.wav,StudioOpenHat.wav,StudioOpenHat2.wav
@@ -80,11 +73,6 @@ Vibraslap.wav
 </sample>
 
 
-<sample name="Bongo" note="60">
-Bongo.wav
-</sample>
-
-
 <sample name="Conga Mute" note="62">
 CongaMute.wav
 </sample>
@@ -96,7 +84,7 @@ CongaHigh.wav
 
 
 <sample name="Conga Low" note="64">
-CongaLow.wa,CongaSlap.wav    
+CongaLow.wav,CongaSlap.wav
 </sample>
 
 
@@ -173,26 +161,14 @@ Triangle1.wav,Triangle2.wav,Triangle3.wav,Triangle4.wav
 </sample>
 
 
-<sample name="Shaker" note="82">
-Shaker.wav
-</sample>
-
-
-<sample name="Tick">
-Tick.wav,TickPerc.wav
-</sample>
-
-
 <sample name="Misc">
-Fingers.wav,GatedSlideDown.wav,Noize+Metal.wav,PercNoize.wav,Shekere.wav,ShekereUp.wav,BrushSlap.wav
+Shaker.wav,Bongo.wav,Fingers.wav,GatedSlideDown.wav,Noize+Metal.wav,PercNoize.wav,Shekere.wav,ShekereUp.wav,BrushSlap.wav,Tick.wav,TickPerc.wav
 </sample>
-
 
 
 <sample name="Scratch">
 Scratch1.wav,Scratch2.wav,Scratch3.wav,Scratch4.wav,Scratch5.wav,Scratchx.wav
 </sample>
-
 
 
 </root>
