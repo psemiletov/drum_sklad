@@ -4,7 +4,7 @@ Free drum kits for Drumlabooh (LV2/VST3) and Drumrox (LV2) drum machines. Both p
 
 These kits are usually installed via the Drumlabooh installer, AUR package, or by building from source with CMake and Make.
 
-But if you downloaded just the binaries, you need to install drum kits manually. Each kit is a directory with subdirectories, samples, a kit picture, and a text or XML kit definition file. On the [Release](https://github.com/psemiletov/drum_sklad/releases) you can download all kits as a single ZIP archive. Choose the latest release there. Or download the [current snapshot](https://github.com/psemiletov/drum_sklad/archive/refs/heads/main.zip) of the repository as ZIP.
+But if you downloaded just the plugin binaries, you need to install drum kits manually. Each kit is a directory with subdirectories, samples, a kit picture, and a text or XML kit definition file. On the [Release page](https://github.com/psemiletov/drum_sklad/releases) you can download all kits as a single ZIP archive. Choose the latest release there. Or download the [current snapshot](https://github.com/psemiletov/drum_sklad/archive/refs/heads/main.zip) of the repository.
 
 Then, unpack kits. You will have the folder ```drum_sklad-VERSION``` with subdirectories (drum kits). Copy them (not the top-level ```drum_sklad-VERSION```) to one of the following directories:
 
