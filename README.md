@@ -18,7 +18,7 @@ $HOME/drumrox-kits
 
 More kits (possibly not Public Domain) you can find here - [Drumlabooh kits at Telegram](https://t.me/drum_sklad)
 
-## Drumkit formats
+## Drumkit formats specification 1.0
 
 Drumlabooh has two native formats: a text-based one (a quick and simple way to create a kit) and an XML-based one (for more complex kits).
 
