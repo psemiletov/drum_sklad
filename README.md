@@ -33,7 +33,7 @@ snare=share.wav
 hihat close=hhc.wav
 ```
 
-For multi-layered samples, simply separate the file names with a comma, using the order from the "quiet" sample to the "loudest" one (multi-layered samples are a set of samples that differ in timbre, not volume):
+For multi-layered samples, simply separate the file names with a comma, using the order from the "quiet" sample to the "loudest" one (multi-layered samples are a set of samples that differ in timbre, not just in volume):
 
 
 ```
@@ -42,7 +42,7 @@ snare=share01.wav,share02.wav,share03.wav
 hihat opened=hihat01.wav,hihat02.wav
 ```
 
-Sample files can be organized into subdirectories, such as **Kick** or **Snare**. For example:
+Sample files can be organized into subdirectories.  For example, we put samples into the **Kick** and **Snare** directories.:
 
 ```
 kick=Kick/kick01.wav,kick02.wav,
