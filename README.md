@@ -139,7 +139,7 @@ As you can see, we can use **direct file names** (e.g., WAV samples) or **files 
 
 The `type` parameter set to `"alt"` means that sample layers will be switched using the **Plus (`+`)** and **Minus (`-`)** buttons in the sample slot. In this mode, each slot contains a **set of alternative samples**, not velocity layers. Otherwise, in other modes, each slot contains **multiple layers of the same instrument** (default behavior).
 
-Each instrument is defined by a `<sample>` tag (element), which has the following parameters:
+Each sample instrument element (`<sample>`) can have the following parameters:
 
 `name` - this name will appear on the **slot label**.
 
