@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    
+<sample name="Bass drum" note="36">
+KICK - Dry-08.wav,KICK - Dry-07.wav,KICK - Dry-06.wav,KICK - Dry-05.wav,KICK - Dry-04.wav,KICK - Dry-03.wav,KICK - Dry-02.wav,KICK - Dry-01.wav
+</sample>
+
+<sample name="Snare" note="38">SNARE - Dry-15.wav,SNARE - Dry-14.wav,SNARE - Dry-13.wav,SNARE - Dry-12.wav,SNARE - Dry-11.wav,SNARE - Dry-10.wav,SNARE - Dry-09.wav,SNARE - Dry-08.wav,SNARE - Dry-07.wav,SNARE - Dry-06.wav,SNARE - Dry-05.wav,SNARE - Dry-04.wav,SNARE - Dry-03.wav,SNARE - Dry-02.wav
+</sample>
+
+<sample name="Snare" note="40">SNARE - Dry-15.wav,SNARE - Dry-14.wav,SNARE - Dry-13.wav,SNARE - Dry-12.wav,SNARE - Dry-11.wav,SNARE - Dry-10.wav,SNARE - Dry-09.wav,SNARE - Dry-08.wav,SNARE - Dry-07.wav,SNARE - Dry-06.wav,SNARE - Dry-05.wav,SNARE - Dry-04.wav,SNARE - Dry-03.wav,SNARE - Dry-02.wav
+</sample>
+
+
+<sample name="Floor Tom" note="41">
+FLOOR TOM - Dry-09.wav,FLOOR TOM - Dry-08.wav,FLOOR TOM - Dry-07.wav,FLOOR TOM - Dry-03.wav,FLOOR TOM - Dry-02.wav,FLOOR TOM - Dry-01.wav,FLOOR TOM - Dry-06.wav,FLOOR TOM - Dry-05.wav,,FLOOR TOM - Dry-04.wav
+</sample>
+
+<sample name="Tom Tom" note="47" layer_index_mode="rnd">
+TOM TOM - Dry-08.wav,TOM TOM - Dry-07.wav,TOM TOM - Dry-06.wav,TOM TOM - Dry-05.wav,TOM TOM - Dry-04.wav,TOM TOM - Dry-03.wav,TOM TOM - Dry-02.wav,TOM TOM - Dry-01.wav
+</sample>
+
+<sample name="Hihat 14 Closed" note="42" layer_index_mode="rnd">
+HHC14a01.wav,HHC14a02.wav,HHC14a03.wav,HHC14a04.wav,HHC14a05.wav,HHC14a06.wav,HHC14a07.wav,HHC14a08.wav,HHC14a09.wav
+</sample>
+
+<sample name="Hihat 14 Foot" note="44">HHF14a01.wav</sample>
+
+<sample name="Hihat 14 Loose" layer_index_mode="rnd">
+HHL14a01.wav,HHL14a02.wav,HHL14a03.wav,HHL14a04.wav,HHL14a05.wav,HHL14a06.wav,HHL14a07.wav,HHL14a08.wav,HHL14a09.wav
+</sample>
+
+<sample name="Hihat 14 Open" note="46">HHO14a01.wav</sample>
+
+
+<sample name="Crash Cymbal 16" note="49">
+CRASH 16inch - Dry-01.wav,CRASH 16inch - Dry-03.wav,CRASH 16inch - Dry-02.wav
+</sample>
+
+<sample name="Crash Cymbal 17" note="57" layer_index_mode="rnd">
+CRASH 17inch - Dry-06.wav,CRASH 17inch - Dry-01.wav,CRASH 17inch - Dry-02.wav,CRASH 17inch - Dry-04.wav,CRASH 17inch - Dry-03.wav,CRASH 17inch - Dry-07.wav,CRASH 17inch - Dry-05.wav
+</sample>
+
+<sample name="Ride Crash" note="51">
+Ride Crash - Dry-05.wav,Ride Crash - Dry-04.wav,Ride Crash - Dry-02.wav,Ride Crash - Dry-01.wav,Ride Crash - Dry-03.wav
+</sample>
+
+
+
+</root>
