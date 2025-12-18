@@ -1,4 +1,4 @@
-# drumrox-kits
+# Drumlabooh kits
 
 Free drum kits for Drumlabooh (LV2/VST3) and Drumrox (LV2) drum machines. Both plugins support a simple text-based kit format, and Drumlabooh also supports more complex XML-based kits.
 
@@ -63,8 +63,7 @@ snare=Snare/snares.txt
 ```
 
 Drumlabooh supports kits with **Round Robin** and **Random Order** layer modes, which must be set at the sample definition level in the drumkit file.  
-**Round Robin** means that layers play one by one with each note hit, then start again from the first layer once the list ends.  
-**Random Order** means that a layer is chosen randomly with each note hit.
+**Round Robin** means that layers play one by one with each note hit, then start again from the first layer once the list ends. **Random Order** means that a layer is chosen randomly with each note hit.
 
 To define a **Round Robin** instrument, use the **greater-than sign (`>`)** at the beginning of the sample name:
 
@@ -85,7 +84,7 @@ There is another multi-layer sampling mode. For example:
 ^kick=kick01.wav,kick02.wav,kick03.wav
 ```
 
-This means that samples are handled as a normal multi-sample set (from quiet to loud), but the MIDI velocity value **does not affect** the output volume. Instead, MIDI velocity is used **only** to select which layer to play.
+This means that samples are handled as a normal multi-sample set (from quiet to loud), but the MIDI velocity value **does not affect** the output volume. Instead, MIDI velocity is used **only** to select which layer to play. This mode is outdated.
 
 A drum kit can have a **built-in MIDI map**, which is used when Drumlabooh's MIDI map mode is set to **"Kit"**.  To assign, for example, MIDI note 36 to an instrument:
 
@@ -137,8 +136,6 @@ Each sample instrument is defined by a `<sample>` element containing parameters 
 
 As you can see, we can use **direct file names** (e.g., WAV samples) or **files containing lists of file names** (e.g., `somelist.txt`).
 
-The `type` parameter set to `"alt"` means that sample layers will be switched using the **Plus (`+`)** and **Minus (`-`)** buttons in the sample slot. In this mode, each slot contains a **set of alternative samples**, not velocity layers. Otherwise, in other modes, each slot contains **multiple layers of the same instrument** (default behavior).
-
 Each sample instrument element (`<sample>`) can have the following parameters:
 
 `name` - this name will appear on the **slot label**.
@@ -151,6 +148,7 @@ Each sample instrument element (`<sample>`) can have the following parameters:
 - `rnd` (random order)  
 - `robin` (cycled layers)  
 - `no_velocity` (do not use MIDI velocity at sample level evaluation, so we use sample/track volume only)
+- `alt` (alternative samples). Sample layers will be switched using the **Plus (`+`)** and **Minus (`-`)** buttons in the sample slot. A slot contains a **set of alternative samples**, not velocity layers. Otherwise, in other modes, each slot contains **multiple (or one) layers of the same instrument** (default behavior).
 
 
 Peter Semiletov
