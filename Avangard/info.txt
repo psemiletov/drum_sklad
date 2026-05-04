@@ -1,0 +1,1 @@
+This drumkit is composed of samples created using open-source synthesizers Uhhyou Web Synthesizers (https://ryukau.github.io/UhhyouWebSynthesizers) with subsequent processing.

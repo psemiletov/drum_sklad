@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root type="alt">
+    
+<sample name="Bass Drum" note="36" layer_index_mode="alt">
+SingenBD3/SingenBD3.txt
+</sample>
+
+<sample name="Bass Drum 2" note="36" layer_index_mode="alt">
+ResonantBD/ResonantBD.txt
+</sample>
+
+<sample name="Techno Snare" note="38" layer_index_mode="alt">
+TechnoSnare/TechnoSnare.txt
+</sample>
+
+<sample name="Coupled Snare" layer_index_mode="alt">
+CoupledSnare/CoupledSnare.txt
+</sample>
+
+<sample name="Roughly Snare" layer_index_mode="alt">
+RoughlySnare/RoughlySnare.txt
+</sample>
+
+
+<sample name="Crash Cymbal" note="49" layer_index_mode="alt">
+MaybeCrash/MaybeCrash.txt
+</sample>
+
+
+<sample name="Cymbals 2" note="51" layer_index_mode="alt">
+PadCymbal/PadCymbal.txt
+</sample>
+
+
+<sample name="Percussion 1" note="52" layer_index_mode="alt">
+CollidingComb/CollidingComb.txt
+</sample>
+
+
+<sample name="Percussion 2" layer_index_mode="alt">
+GenericDrum/GenericDrum.txt
+</sample>
+
+<sample name="Drop" layer_index_mode="alt">
+ResonantDrop/ResonantDrop.txt
+</sample>
+
+
+</root>
