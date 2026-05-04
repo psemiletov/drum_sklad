@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root type="alt">
+    
+<sample name="Kick" note="36" layer_index_mode="alt">
+kick/kick.txt
+</sample>
+
+
+<sample name="Snare" note="38" layer_index_mode="alt">
+snare/snare.txt
+</sample>
+
+<sample name="Clap" note="39" layer_index_mode="alt">
+clap/clap.txt
+</sample>
+
+<sample name="Hihat Close" note="42" layer_index_mode="alt">
+hat-closed/hh-close.txt
+</sample>
+
+
+<sample name="Hihat Open" note="46" layer_index_mode="alt">
+hat-open/hh-open.txt
+</sample>
+
+
+<sample name="Ride" note="51" layer_index_mode="alt">
+ride/ride.txt
+</sample>
+
+
+<sample name="Percussion" note="52" layer_index_mode="alt">
+percussion/perc.txt
+</sample>
+
+
+</root>

@@ -1,0 +1,8 @@
+# SOPROMAT (СОПРОМАТ)
+
+## Credits
+The original, raw sounds for this drumkit were generated using the algorithmic beat maker at https://dopeloop.ai/beat-maker/ (developed by Chris McCormick) based on ClojureScript. Subsequently, all samples were processed to create the final kit.
+
+## Processing Details
+- Converted from stereo to mono.
+- Trimmed trailing silence with a micro fade-out.
