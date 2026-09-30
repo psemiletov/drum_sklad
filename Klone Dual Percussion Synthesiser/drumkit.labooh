@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root type="alt">
     
-<sample name="BASS" note="36">
+<sample name="BASS" note="36" layer_index_mode="alt">
 KLONE BASS NW8/bass.txt
 </sample>
 
-<sample name="MONO">
+<sample name="MONO" layer_index_mode="alt">
 DRUMHITS KLoNe MONO/mono.txt
 </sample>
 
-<sample name="KICK">
+<sample name="KICK" layer_index_mode="alt">
 KLONE KICK NW8/kick.txt
 </sample>
 
-<sample name="SNARE" note="38">
+<sample name="SNARE" note="38" layer_index_mode="alt">
 KLONE SNARE NW8/snare.txt
 </sample>
 
-<sample name="HHAT">
+<sample name="HHAT" layer_index_mode="alt">
 KLONE HHAT NW8/hhat.txt
 </sample>
 
-<sample name="PERC" note="39">
+<sample name="PERC" note="39" layer_index_mode="alt">
 KLONE PERC NW8/perc.txt
 </sample>
 
-<sample name="FILT">
+<sample name="FILT" layer_index_mode="alt">
 KLONE FILT NW8/filt.txt
 </sample>
 
-<sample name="PITCH">
+<sample name="PITCH" layer_index_mode="alt">
 KLONE PITCH NW8/pitch.txt
 </sample>
 
-<sample name="FREQ">
+<sample name="FREQ" layer_index_mode="alt">
 KLONE FREQ NW8/freq.txt
 </sample>
 
-<sample name="NOIZ">
+<sample name="NOIZ" layer_index_mode="alt">
 KLONE NOIZ NW8/noiz.txt
 </sample>
 
-<sample name="FX">
+<sample name="FX" layer_index_mode="alt">
 KLONE FX NW8/fx.txt
 </sample>
 
-<sample name="2SFX">
+<sample name="2SFX" layer_index_mode="alt">
 KLONE2SFX NW8/fx.txt
 </sample>
 
