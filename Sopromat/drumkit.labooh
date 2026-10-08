@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    
+<root>  
+  
 <sample name="Kick" note="36" layer_index_mode="alt">
 kick/kick.txt
 </sample>
-
 
 <sample name="Snare" note="38" layer_index_mode="alt">
 snare/snare.txt
