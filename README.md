@@ -18,7 +18,7 @@ $HOME/drumrox-kits
 
 More kits (possibly not Public Domain) you can find here - [Drumlabooh kits at Telegram](https://t.me/drum_sklad)
 
-## Drumkit formats specification 1.0
+## Drumkit formats specification 1.1
 
 Drumlabooh has two native formats: a text-based one (a quick and simple way to create a kit) and an XML-based one (for more complex kits).
 
@@ -29,7 +29,7 @@ The text-based Drumlabooh kit format is very simple. A drum kit is a directory c
 
 ```
 kick=kick.wav
-snare=share.wav
+snare=snare.wav
 hihat close=hhc.wav
 ```
 
@@ -39,7 +39,7 @@ For multi-layered samples, simply separate the file names with a comma, using th
 ```
 kick=kick01.wav,kick02.wav,kick03.wav,kick04.wav
 snare=share01.wav,share02.wav,share03.wav
-hihat opened=hihat01.wav,hihat02.wav
+hihat open=hihat01.wav,hihat02.wav
 ```
 
 Sample files can be organized into subdirectories.  For example, we put samples into the **Kick** and **Snare** directories.:
@@ -58,7 +58,7 @@ ls > snares.txt
 Then use it as follows:
 
 ```
-kick=Kick/kick01.wav,kick02.wav,
+kick=Kick/kick01.wav,Kick/kick02.wav
 snare=Snare/snares.txt
 ```
 
@@ -102,7 +102,7 @@ A typical such file looks like this:
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-<root type="alt">
+<root>    
     
 <sample name="Kick" note="36">
 kick.txt
@@ -117,11 +117,11 @@ snare.txt
 </sample>
 
 <sample name="Hihat Close" note="42">
-choosy-house-Hihat05.wav,choosy-house-Hihat10.wav
+HihatClose01.wav,HihatClose02.wav
 </sample>
 
-<sample name="Tom 1" note="45">
-tom.txt
+<sample name="Tom" note="45">
+toms-directory
 </sample>
 
 <sample name="Hihat Open" note="46">
@@ -134,7 +134,7 @@ open-hihat.txt
 
 Each sample instrument is defined by a `<sample>` element containing parameters and file names.
 
-As you can see, we can use **direct file names** (e.g., WAV samples) or **files containing lists of file names** (e.g., `somelist.txt`).
+As you can see, we can use **direct file names** (e.g., WAV samples) or **files containing lists of file names** (e.g., `somelist.txt`) or even just a **directory name**. In a latter case, just place samples in the directory specified by the  **directory name**. Files will be sorted alphabetically by names, and Drumlabooh supposed that you arrange them from the "quiet" sample to the "loudest" (kick001.wav is quiet, kick100.wav is the louder, for example).
 
 Each sample instrument element (`<sample>`) can have the following parameters:
 
@@ -149,6 +149,17 @@ Each sample instrument element (`<sample>`) can have the following parameters:
 - `robin` (cycled layers)  
 - `no_velocity` (do not use MIDI velocity at sample level evaluation, so we use sample/track volume only)
 - `alt` (alternative samples). Sample layers will be switched using the **Plus (`+`)** and **Minus (`-`)** buttons in the sample slot. A slot contains a **set of alternative samples**, not velocity layers. Otherwise, in other modes, each slot contains **multiple (or one) layers of the same instrument** (default behavior).
+
+`reverse_order_mode` – a special option that works when you use just a directory name as the sample list. if reverse_order_mode = on or 1, files from the directory will be sorted alphabeticcaly first, and then the order will be reversed.  
+
+
+For real world examples, see the following kits sources:
+
+Diskach - XML directory-based kit with alt samples.
+
+Sopromat - XML "alt" kit where samples are defined as lists at the text files.
+
+Sixties Rock - a complex XML kit with multi-layered instruments, round robins, etc.
 
 
 Peter Semiletov
