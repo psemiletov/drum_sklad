@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    
+<sample name="Rear Acoustic" note="36" layer_index_mode="alt">
+inst01.synpak
+</sample>
+
+<sample name="Methane Pop" note="38" layer_index_mode="alt">
+inst02.synpak
+</sample>
+
+<sample name="Gas Release" note="39" layer_index_mode="alt">
+inst03.synpak
+</sample>
+
+<sample name="Wind Blast" note="42" layer_index_mode="alt">
+inst04.synpak
+</sample>
+
+</root>
