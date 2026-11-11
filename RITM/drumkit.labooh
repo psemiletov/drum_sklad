@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    
+<sample name="Bass drum" note="36" layer_index_mode="alt">
+kick.synpak
+</sample>
+
+<sample name="Clap" note="39" layer_index_mode="alt">
+clap.synpak
+</sample>
+
+<sample name="Snare" note="38" layer_index_mode="alt">
+computer-snare.synpak
+</sample>
+
+
+
+<sample name="Tom"  note="41"  layer_index_mode="alt">
+computer-tom.synpak
+</sample>
+
+
+<sample name="Closed Hihat" note="42" layer_index_mode="alt">
+hihat-close.synpak
+</sample>
+
+
+<sample name="Open Hihat" note="46" layer_index_mode="alt">
+hihat-open.synpak
+</sample>
+
+
+</root>

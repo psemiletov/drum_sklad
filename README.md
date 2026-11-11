@@ -1,6 +1,6 @@
 # Drumlabooh kits
 
-Free drum kits for Drumlabooh (LV2/VST3) and Drumrox (LV2) drum machines. Both plugins support a simple text-based kit format, and Drumlabooh also supports more complex XML-based kits.
+Free drum kits for Drumlabooh (LV2/VST3) and Drumrox (LV2) drum machines. Both plugins support a simple text-based kit format, and Drumlabooh also supports more complex XML-based kits. Currently, the text-file-based format is deprecated; while old drum kits built on it are still available in the repository, all new drum kits are released in the XML format.
 
 These kits are usually installed via the Drumlabooh installer, AUR package, or by building from source with CMake and Make.
 
@@ -18,12 +18,12 @@ $HOME/drumrox-kits
 
 More kits (possibly not Public Domain) you can find here - [Drumlabooh kits at Telegram](https://t.me/drum_sklad)
 
-## Drumkit formats specification 1.1
+## Drumkit formats specification 2.0
 
 Drumlabooh has two native formats: a text-based one (a quick and simple way to create a kit) and an XML-based one (for more complex kits).
 
 
-## Text-based drumkit format
+## Text-based drumkit format (legacy)
 
 The text-based Drumlabooh kit format is very simple. A drum kit is a directory containing samples (WAV, AIFF, OGG, FLAC, MP3), an optional image, and a text file. The optional file is ```image.png``` or ```image.jpg```, which holds an image of the drum kit. The mandatory file is ```drumkit.txt``` with lines such as ```instrument name=filename.wav```. For example:
 
@@ -134,7 +134,7 @@ open-hihat.txt
 
 Each sample instrument is defined by a `<sample>` element containing parameters and file names.
 
-As you can see, we can use **direct file names** (e.g., WAV samples) or **files containing lists of file names** (e.g., `somelist.txt`) or even just a **directory name**. In a latter case, just place samples in the directory specified by the  **directory name**. Files will be sorted alphabetically by names, and Drumlabooh supposed that you arrange them from the "quiet" sample to the "loudest" (kick001.wav is quiet, kick100.wav is the louder, for example).
+As you can see, we can use **direct file names** (e.g., WAV samples or synth files or even preset pacs) or **files containing lists of file names** (e.g., `somelist.txt`) or even just a **directory name**. In a latter case, just place samples in the directory specified by the  **directory name**. Files will be sorted alphabetically by names, and Drumlabooh supposed that you arrange them from the "quiet" sample to the "loudest" (kick001.wav is quiet, kick100.wav is the louder, for example).
 
 Each sample instrument element (`<sample>`) can have the following parameters:
 
@@ -152,8 +152,52 @@ Each sample instrument element (`<sample>`) can have the following parameters:
 
 `reverse_order_mode` – a special option that works when you use just a directory name as the sample list. if reverse_order_mode = on or 1, files from the directory will be sorted alphabeticcaly first, and then the order will be reversed.  
 
+`show_instrument_name_for_alts` - when set to "on", the cell for this instrument displays the instrument's name before the variant number. Useful for samples/presets without meaningful names.
+ 
+Inside the `<sample>` element, there can be not only samples, but also "formula" files for the built-in synthesizer with the .syn extension, as well as files containing entire collections of such formula presets with the .synpak extension.
+
+The formula format is as follows:
+
+`preset_name^formula`
+
+For example: `Cyber Snap 01^clap(decay=0.08, tone=3800, spread=0.003, count=2)`
+
+A .synpak file consists of such formulas, with one formula per line of text.
+
+Formula parameters depend on the synthesizer generators - different generators have different parameters.
+
+Here is the list of available generators; click the link to read the documentation for each of them:
+
+## Synth modules documentation
+
+
+[goakick](docs/goakick.md), [goakick на русском](docs/goakick-ru.md)
+
+[goasnare](docs/goasnare.md), [goasnare на русском](docs/goasnare-ru.md) 
+
+[clap](docs/clap.md), [clap на русском](docs/clap-ru.md)
+
+[computer_snare](docs/computer-snare.md), [computer_snare на русском](docs/computer-snare-ru.md)
+
+[computer_tom](docs/computer-tom.md), [computer_tom на русском](docs/computer-tom-ru.md)
+
+[cowbell](docs/cowbell.md), [cowbell на русском](docs/cowbell-ru.md)
+
+[hihat](docs/hihat.md), [hihat на русском](docs/hihat-ru.md)
+
+[crashhybrid](docs/crash-hybrid.md), [crashhybrid на русском](docs/crash-hybrid-ru.md)
+
+[kick](docs/kick.md), [kick на русском](docs/kick-ru.md)
+
+[ride](docs/ride.md), [ride на русском](docs/ride-ru.md)
+
+
+
+## Examples
 
 For real world examples, see the following kits sources:
+
+OM Kit - XML kit with alt synthesizer presets.
 
 Diskach - XML directory-based kit with alt samples.
 

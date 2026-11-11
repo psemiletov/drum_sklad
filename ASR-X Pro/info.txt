@@ -1,3 +1,3 @@
-ASR-X Pro from Ensoniq is a powerful sampling workstation and groovebox released in 1998, combining a robust 16-bit sampler, a 16-track sequencer, and the effects processor.
+Released in 1998, the Ensoniq ASR-X Pro is a powerful sampling workstation and groovebox featuring a 16-bit sampler, a 16-track sequencer, and built-in effects. It became a favorite in hip-hop production.
 
 Samples are taken from https://archive.org/download/drum-machines-collection

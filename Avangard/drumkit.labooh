@@ -45,5 +45,13 @@ GenericDrum/GenericDrum.txt
 ResonantDrop/ResonantDrop.txt
 </sample>
 
+<sample name="SynthDrum" layer_index_mode="alt">
+synbkick.syn
+</sample>
+
+<sample name="SynthDrum2" layer_index_mode="alt">
+kicks.synpak
+</sample>
+
 
 </root>
