@@ -5,9 +5,10 @@ Mono analog synth
 Схемотехника: инженеры Владимир Кузьмин и Юрий Фиофилов
 Дизайн: Олимпиада Кузьмина
 
+Circuit design: engineers Vladimir Kuzmin and Yuri Fiofilov
+Design: Olimpiada Kuzmina
 
-
-Использовался | Used by
+Использовался:
 
 Агата Кристи (раннее творчество)
 Биоконструктор (Танцы по видео, 1987)
@@ -15,4 +16,13 @@ Franz Ferdinand (Tonight)
 Goldfrapp (Black Cherry);
 Rammstein
 
+Used by:
+
+Agata Kristi (early work)
+Biokonstruktor (Tantsy po Video, 1987)
+Franz Ferdinand (Tonight)
+Goldfrapp (Black Cherry)
+Rammstein
+
 Samples are taken from https://archive.org/download/drum-machines-collection
+

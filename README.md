@@ -192,8 +192,52 @@ Here is the list of available generators; click the link to read the documentati
 [ride](docs/ride.md), [ride на русском](docs/ride-ru.md)
 
 
+## Directory-based sample lists (XML)
 
-## Examples
+In an XML-based kit (drumkit.labooh), the <sample> element normally contains a comma-separated list of file names, or a name of a .txt file with the list, or .synpak file with presets. As an alternative, you can put a directory name instead — the plugin will read all audio (and .syn) files from that directory and use them as layers or variants.
+
+Example:
+
+`<sample name="Kick" note="36">
+kick
+</sample>`
+
+This will look for the subdirectory kick/ inside the kit directory, read all supported audio files (WAV, AIFF, FLAC, OGG, MP3) from it, sort them by file name, and use them as layers of the instrument — from "quiet" to "loudest" (in file name order).
+
+This is equivalent to:
+
+`<sample name="Kick" note="36">
+kick/kick001.wav,kick002.wav,kick003.wav,...
+</sample>`
+
+Requirements and assumptions:
+
+The directory must be inside the kit directory (relative path).
+
+The directory name must not contain a dot (.), otherwise it would be interpreted as a file name or a file list.
+
+Files must be named meaningfully — e.g., kick001.wav, kick002.wav, ... — because sorting is lexicographic, not natural. kick10.wav sorts before kick2.wav in standard lexicographic order.
+
+All audio files in the directory are treated as layers of the same instrument, ordered from first (quietest) to last (loudest), just like a comma-separated list.
+
+To reverse the order (loudest first), use the reverse_order_mode="on" attribute.
+
+Why use this format:
+
+You don't need to update the XML every time you add or remove a sample — just drop files into the directory.
+
+Easy to bulk-generate kits from scripts.
+
+Good for auto-generated kits or kits with hundreds of layers.
+
+Limitations:
+
+Cannot exclude individual files (they all get loaded).
+
+File name sorting is lexicographic, so use zero-padded numbering (drum001.wav, drum002.wav, ... drum010.wav) to get predictable order.
+
+
+## Kit Examples
 
 For real world examples, see the following kits sources:
 
