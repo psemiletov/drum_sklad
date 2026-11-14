@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    
+<sample name="Bass drum" note="36" layer_index_mode="alt" show_instrument_name_for_alts="on">
+goakick.synpak
+</sample>
+
+<sample name="Clap" note="39" layer_index_mode="alt" show_instrument_name_for_alts="on">
+clap.synpak
+</sample>
+
+<sample name="Snare" note="38" layer_index_mode="alt" show_instrument_name_for_alts="on">
+goasnare.synpak
+</sample>
+
+<sample name="Closed Hihat" note="42" layer_index_mode="alt" show_instrument_name_for_alts="on">
+hihat-close.synpak
+</sample>
+
+<sample name="Open Hihat" note="46" layer_index_mode="alt" show_instrument_name_for_alts="on">
+hihat-open.synpak
+</sample>
+
+<sample name="Crash" note="49" layer_index_mode="alt" show_instrument_name_for_alts="on">
+crashhybrid.synpak
+</sample>
+
+<sample name="Ride" note="53" layer_index_mode="alt" show_instrument_name_for_alts="on">
+ride.synpak
+</sample>
+
+<sample name="Cowbell" note="56" layer_index_mode="alt" show_instrument_name_for_alts="on">
+cowbell.synpak
+</sample>
+
+</root>
