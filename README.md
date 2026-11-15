@@ -38,7 +38,7 @@ For multi-layered samples, simply separate the file names with a comma, using th
 
 ```
 kick=kick01.wav,kick02.wav,kick03.wav,kick04.wav
-snare=share01.wav,share02.wav,share03.wav
+snare=snare01.wav,snare02.wav,snare03.wav
 hihat open=hihat01.wav,hihat02.wav
 ```
 
@@ -113,7 +113,7 @@ snare.txt
 </sample>
 
 <sample name="Snare 2" note="40">
-snare.txt
+snare01.wav, snare02.syn
 </sample>
 
 <sample name="Hihat Close" note="42">
@@ -128,13 +128,17 @@ toms-directory
 open-hihat.txt
 </sample>
 
+<sample name="Compure Snare" layer_index_mode="alt" show_instrument_name_for_alts="on">
+computer-snare.synpak
+</sample>
+
 
 </root>
 ```
 
 Each sample instrument is defined by a `<sample>` element containing parameters and file names.
 
-As you can see, we can use **direct file names** (e.g., WAV samples or synth files or even preset pacs) or **files containing lists of file names** (e.g., `somelist.txt`) or even just a **directory name**. In a latter case, just place samples in the directory specified by the  **directory name**. Files will be sorted alphabetically by names, and Drumlabooh supposed that you arrange them from the "quiet" sample to the "loudest" (kick001.wav is quiet, kick100.wav is the louder, for example).
+As you can see, we can use **direct file names** (e.g., WAV samples or synth files or even preset pacs) or **files containing lists of file names** (e.g., `somelist.txt`) or even just a **directory name**. In the latter case, just place samples in the directory specified by the  **directory name**. Files will be sorted alphabetically by names, and Drumlabooh supposed that you arrange them from the "quiet" sample to the "loudest" (kick001.wav is quiet, kick100.wav is the louder, for example).
 
 Each sample instrument element (`<sample>`) can have the following parameters:
 
@@ -150,7 +154,7 @@ Each sample instrument element (`<sample>`) can have the following parameters:
 - `no_velocity` (do not use MIDI velocity at sample level evaluation, so we use sample/track volume only)
 - `alt` (alternative samples). Sample layers will be switched using the **Plus (`+`)** and **Minus (`-`)** buttons in the sample slot. A slot contains a **set of alternative samples**, not velocity layers. Otherwise, in other modes, each slot contains **multiple (or one) layers of the same instrument** (default behavior).
 
-`reverse_order_mode` – a special option that works when you use just a directory name as the sample list. if reverse_order_mode = on or 1, files from the directory will be sorted alphabeticcaly first, and then the order will be reversed.  
+`reverse_order_mode` – a special option that works when you use just a directory name as the sample list. if reverse_order_mode = on or 1, files from the directory will be sorted alphabeticaly first, and then the order will be reversed.  
 
 `show_instrument_name_for_alts` - when set to "on", the cell for this instrument displays the instrument's name before the variant number. Useful for samples/presets without meaningful names.
  
@@ -198,17 +202,21 @@ In an XML-based kit (drumkit.labooh), the <sample> element normally contains a c
 
 Example:
 
-`<sample name="Kick" note="36">
+```
+<sample name="Kick" note="36">
 kick
-</sample>`
+</sample>
+```
 
 This will look for the subdirectory kick/ inside the kit directory, read all supported audio files (WAV, AIFF, FLAC, OGG, MP3) from it, sort them by file name, and use them as layers of the instrument — from "quiet" to "loudest" (in file name order).
 
 This is equivalent to:
 
-`<sample name="Kick" note="36">
-kick/kick001.wav,kick002.wav,kick003.wav,...
-</sample>`
+```
+<sample name="Kick" note="36">
+kick/kick001.wav,kick002.wav,kick003.wav
+</sample>
+```
 
 Requirements and assumptions:
 
@@ -216,7 +224,7 @@ The directory must be inside the kit directory (relative path).
 
 The directory name must not contain a dot (.), otherwise it would be interpreted as a file name or a file list.
 
-Files must be named meaningfully — e.g., kick001.wav, kick002.wav, ... — because sorting is lexicographic, not natural. kick10.wav sorts before kick2.wav in standard lexicographic order.
+Files must be named meaningfully — e.g., kick001.wav, kick002.wav, ... - because sorting is lexicographic, not natural. kick10.wav sorts before kick2.wav in standard lexicographic order.
 
 All audio files in the directory are treated as layers of the same instrument, ordered from first (quietest) to last (loudest), just like a comma-separated list.
 
@@ -224,7 +232,7 @@ To reverse the order (loudest first), use the reverse_order_mode="on" attribute.
 
 Why use this format:
 
-You don't need to update the XML every time you add or remove a sample — just drop files into the directory.
+You don't need to update the XML every time you add or remove a sample - just put files into the directory.
 
 Easy to bulk-generate kits from scripts.
 
